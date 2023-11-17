@@ -152,10 +152,10 @@ export default defineComponent({
       });
     },
     getImgUrl(pic) {
-      return require("assets/icons/" + pic + ".png");
+      return new URL(`../assets/icons/${pic}.png`, import.meta.url).href      
     },
     getAudioUrl(file) {
-      return require("assets/audio/" + file + ".mp3");
+      return new URL(`../assets/audio/${file}.mp3`, import.meta.url).href      
     },
   },
 });
