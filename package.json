@@ -1,8 +1,8 @@
 {
-  "name": "Whip Application",
+  "name": "whip-application",
   "version": "0.0.1",
   "description": "A cool whip sound app",
-  "productName": "whip-app",
+  "productName": "Whip Application",
   "author": "Anand Tripathi <anand.tripathi507@gmail.com>",
   "private": true,
   "scripts": {
